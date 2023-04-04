@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+
+
+body{
+    background: url(../imagenes/ondas.svg) no-repeat fixed;
+    background-size: cover;
+    background-color: #22193F;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+
+.login{
+    padding-left: 20px;
+    font-size: 28px;
+    font-family: nunito black;
+    color: #22193F;
+}
+
+.row{
+    width: 900px;
+    height: 550px;
+    border-radius: 10px;
+    align-items: stretch;
+    align-content: center;
+    justify-content: center;
+}
+
+.imagen{
+    background-image: url("../imagenes/Mobile-Threat-GettyImages-1289013540-PurpleSQ.jpg");
+    background-position: center;
+    background-size: cover;
+
+    position: relative;
+    height: 450px;
+}
+.img1{
+    position: absolute;
+    width: 250px;
+    top: 200px;
+    left: 80px;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    background-color: white;
+    box-shadow: black;
+
+    width: 450px;
+    height: 450px;
+}
+
+.caja{
+    width: 430px;
+    box-sizing: border-box;
+}
+
+.inputs{
+    font-family: nunito;
+    font-style: regular;
+
+    display: flex;
+    position: relative;
+    padding: 0 0px 0 10px;
+}
+
+.input{
+    box-sizing: border-box;
+    padding: 10px 3px 10px 45px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.contraseña{
+    color: #E21982;
+    margin-left: 240px;
+
+    font-family: nunito;
+    font-style: blod;
+
+}
+
+
+.caja .inputs label{
+    position: absolute;
+    top: 40px;
+    left: 70px;
+    transition: .3s;
+}
+
+.bi {
+    position: absolute;
+    top: 43px;
+    left: 28px;
+    transition-property: none;
+    transition: .3s;
+    color:  #6A2A83;
+}
+
+.inputs .input:focus ~ label{
+    top: -10px;
+    font-size: 16px;
+}
+
+.btn{   
+    font-size: 16px;
+
+    margin-top: 30px;
+    height: 40px;
+    margin-right: 10px;
+
+    background: #E21982;
+    border-radius: 5px;
+    border-color: #660638;
+    transition: .3s;
+}
+.btn:hover{
+    background: #8b0b4d;
+}
+
+.ondas{
+    background-image: url("..//imagenes/img-login.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
